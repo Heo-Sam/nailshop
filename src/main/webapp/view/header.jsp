@@ -64,10 +64,10 @@
 	}
 	
 	#icon {
-		display: inline-block;
-		left: 0px;
-		margin: 30px;
-		position: fixed;
+		display: block;
+		width: 100px; height: auto;
+		vertical-align: middle;
+		border: 1px solid black;
 	}
  
 </style>
@@ -76,6 +76,10 @@
 	<div id="header">
 	  	<div id="login_go">
 			<a href="login.jsp">로그인</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a href="join.jsp">회원가입</a>
+		</div>
+		<div id="icon">
+			<a id="insta" href="https://instagram.com/_gaggum?utm_medium=copy_link"><img alt="" src="../icon_images/instagram.png" style="width: 40px; height: 40px;"></a><br>
+			<a id="kakao" href="https://open.kakao.com/o/sDYUw4eb"><img alt="" src="../icon_images/chat2_40.png"></a>
 		</div>
 		<div id="menu1">
 			<ul class="main">
@@ -86,10 +90,6 @@
 			</ul>
 		</div>
 	<hr id="hr">
-		<div id="icon">
-			<a id="insta" href="https://instagram.com/_gaggum?utm_medium=copy_link"><img alt="" src="../icon_images/instagram.png" style="width: 40px; height: 40px; margin-bottom: 20px;"></a><br>
-			<a id="kakao" href="https://open.kakao.com/o/sDYUw4eb"><img alt="" src="../icon_images/kakao2.png" style="width: 40px; height: 40px; "></a>
-		</div>
 	</div>
 </body>
 </html>

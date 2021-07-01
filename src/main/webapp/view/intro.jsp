@@ -49,7 +49,7 @@
 	#howtocome {
 		float: left;
 		width: 500px;
-		margin-top: 150px;
+		margin-top: 130px;
 		font-size: 14px;
 	}
 	.icon {
@@ -106,22 +106,22 @@
 		
 			<div id="howtocome">
 				<p>
-					<img class="icon" alt="위치" src="../icon_images/location.png"><br>
-					&nbsp;&nbsp; 경기 안양시 만안구 박달로 580 1층
+					<img class="icon" alt="위치" src="../icon_images/location2_40.png"><br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 경기 안양시 만안구 박달로 580 1층
 				</p> 
 				<hr style="height: 1px; border: 0px; background-color:	rgb(248,236,231);">
 				<p>
-					<img class="icon" alt="지하철" src="../icon_images/subway.png"> <br>
-					&nbsp;&nbsp;지하철 1호선 | 안양역 1번 출구 안양여고 사거리 방면 도보 약 10분
+					<img class="icon" alt="지하철" src="../icon_images/subway_40.png"> <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;지하철 1호선 | 안양역 1번 출구 안양여고 사거리 방면 도보 약 10분
 				</p> 
 				<hr style="height: 1px; border: 0px; background-color:	rgb(248,236,231);">     
 				<p>
-					<img class="icon" alt="버스" src="../icon_images/bus.png">
-					&nbsp;&nbsp;&nbsp;2, 3, 6, 8, 11, 12, 31-7, 32, 35, 81, 83, 88, 350 번 버스 승차<br>
-					&nbsp;&nbsp;&nbsp;안양여고.안양성결교회 정류장 하차<br>
-					&nbsp;&nbsp;
+					<img class="icon" alt="버스" src="../icon_images/bus_40.png">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, 3, 6, 8, 11, 12, 31-7, 32, 35, 81, 83, 88, 350 번 버스 승차<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;안양여고.안양성결교회 정류장 하차<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
 					박달동 방면 하차 시 횡단보도 횡단 후 안양여고 사거리 방면 도보 약 2분<br>
-					&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					안양여고 사거리 방면 하차 시 사거리 방면으로 도보 약 2분<br>
 				</p> 
 			</div>
