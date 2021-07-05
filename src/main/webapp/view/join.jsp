@@ -45,7 +45,7 @@
 <body>
 	<div id="logo">
 		<!-- <a href="main.jsp"><img alt="로고맨맨맨맨" src="../images/logo.png"></a> -->
-		<a href="header.jsp"><h2>가 꿈</h2></a>
+		<a href="main.jsp"><h2>가 꿈</h2></a>
 		<h2>WELCOME</h2>
 	</div>
 	<div id="join">

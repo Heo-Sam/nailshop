@@ -57,7 +57,7 @@
 <body>
 	<div id="logo">
 		<!-- <a href="main.jsp"><img alt="로고맨맨맨맨" src="../images/logo.png"></a> -->
-		<h2><a href="header.jsp">가 꿈</a></h2>
+		<h2><a href="main.jsp">가 꿈</a></h2>
 	</div>
 	
 	<form id="login_form" method="post">
