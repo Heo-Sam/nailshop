@@ -64,13 +64,13 @@ ul.tab li.current {
 	<div class="res_notice">
 
 		<ul class="tab">
-			<li class="current" data-tab="tab1"><a href="#">손(클릭해주세요)</a></li>
-			<li data-tab="tab2"><a href="#">발(클릭해주세요)</a></li>
-			<li data-tab="tab3"><a href="#">속눈썹(클릭해주세요)</a></li>
+			<li class="current" data-tab="tab1"><a href="#">손</a></li>
+			<li data-tab="tab2"><a href="#">발</a></li>
+			<li data-tab="tab3"><a href="#">속눈썹</a></li>
 		</ul>
 
 
-		<div id="tab1" class="tab-content currnet">
+		<div id="tab1" class="tab-content current">
 			<h3>손</h3>
 			<table>
 				<!-- 추후 taglib사용, db에서 사진 가져오기 -->
