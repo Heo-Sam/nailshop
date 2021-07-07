@@ -64,9 +64,9 @@ ul.tab li.current {
 	<div class="res_notice">
 
 		<ul class="tab">
-			<li class="current" data-tab="tab1"><a href="#">손</a></li>
-			<li data-tab="tab2"><a href="#">발</a></li>
-			<li data-tab="tab3"><a href="#">속눈썹</a></li>
+			<li class="current" data-tab="tab1"><a href="#">손(클릭해주세요)</a></li>
+			<li data-tab="tab2"><a href="#">발(클릭해주세요)</a></li>
+			<li data-tab="tab3"><a href="#">속눈썹(클릭해주세요)</a></li>
 		</ul>
 
 
@@ -112,6 +112,7 @@ ul.tab li.current {
 			<h3>속눈썹</h3>
 			<table>
 				<!-- 추후 taglib사용, db에서 사진 가져오기 -->
+				<!-- 아직 속눈썹 시술사진 미적용 -->
 				<tr> 
 					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_1.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_2.jpg"></a></td>
@@ -126,8 +127,13 @@ ul.tab li.current {
 				</tr>
 			</table>
 		</div>
-	</div>
-	<!-- res_notice end -->
+		<!-- 추후 페이징 추가 -->
+		<div class="paging">
+			<div id="page">
+				이전으로&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;1 &nbsp;2 &nbsp;3 &nbsp;... &nbsp;&nbsp;&nbsp;&nbsp;다음으로
+			</div>
+		</div>
+	</div> <!-- res_notice end -->
 
 	<script>
 		$(function() {
