@@ -7,9 +7,15 @@
 <title>가꿈: 로그인</title>
 <style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-	* { font-family: 'Jeju Myeongjo', serif; font-weight: bold; }
+@font-face {
+     font-family: 'S-CoreDream-4Regular';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+	* { /* font-family: 'Jeju Myeongjo', serif;  */ font-family: 'S-CoreDream-4Regular'; font-weight: bold; }
 	body {
-		background-color:	rgb(248,236,231);
+		background-color:	rgb(250,250,250);
 	}
 	#logo {
 		/* margin-top: 50px;
@@ -45,11 +51,11 @@
 </style>
 <script type="text/javascript">
 	function login_go(f) {
-		f.action = "view/header.jsp";
+		f.action = "main.jsp";
 		f.submit();
 	}
 	function join_go(f) {
-		f.action = "view/join.jsp";
+		f.action = "join.jsp";
 		f.submit();
 	}
 </script>
@@ -67,7 +73,7 @@
 		<input type="button" name="join_go(this.form)" value="회원가입" >
 	</form>
 		<div id="find_id">
-			<a href="join.jsp">아이디 혹은 비밀번호를 잊어버리셨나요?</a>
+			<a href="find.jsp">아이디 혹은 비밀번호를 잊어버리셨나요?</a>
 		</div>
 
 </body>

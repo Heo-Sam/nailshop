@@ -10,40 +10,30 @@
 
 @font-face {
 	font-family: 'GongGothicMedium';
-	src:
-		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
 		format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
-* {
-	font-family: 'Jeju Myeongjo', serif;
-}
-
-body {
-	background-color: rgb(248, 236, 231);
-}
-
+* { font-family: 'Jeju Myeongjo', serif; }
+body { background-color: rgb(248, 236, 231); }
 .res_notice {
 	width: 1200px;
 	height: 1200px;
 	margin: 40px auto;
-	border: 2px solid #FFF;
+/* 	border: 2px solid #FFF; */
 	text-align: center;
 }
-
 .tab {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-
 .tab li {
 	float: left;
 	width: 33.3333333%;
 }
-
 .tab li a {
 	display: inline-block;
 	color: #000;
@@ -53,7 +43,6 @@ body {
 	font-size: 20px;
 	font-weight: bold;
 }
-
 .tab-content {
 	display: none;
 	height: 1000px;
@@ -61,20 +50,11 @@ body {
 	padding: 10px 12px;
 	color: #000;
 }
-.tab-content:current {
-/* 	display: none; */
-
-}
-
 ul.tab li.current {
 	background-color: #FFF;
 	color: #222;
 }
-
-.tab-content.current {
-	display: block;
-}
-.img-tag { margin: 20px; }
+.tab-content.current { display: block; }
 </style>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -104,6 +84,7 @@ ul.tab li.current {
 					<td class="img-tag"><a><img alt="" src="../service_images/nail_290_5.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/nail_290_6.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/nail_290_7.jpg"></a></td>
+					<td class="img-tag"><a><img alt="" src="../service_images/nail_290_8.jpg"></a></td>
 				</tr>
 			</table>
 		</div>
@@ -122,6 +103,7 @@ ul.tab li.current {
 					<td class="img-tag"><a><img alt="" src="../service_images/pedi_290_5.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/pedi_290_6.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/pedi_290_7.jpg"></a></td>
+					<td class="img-tag"><a><img alt="" src="../service_images/pedi_290_8.jpg"></a></td>
 				</tr>
 			</table>
 		</div>
@@ -140,6 +122,7 @@ ul.tab li.current {
 					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_5.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_6.jpg"></a></td>
 					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_7.jpg"></a></td>
+					<td class="img-tag"><a><img alt="" src="../service_images/eyelashes_290_8.jpg"></a></td>
 				</tr>
 			</table>
 		</div>

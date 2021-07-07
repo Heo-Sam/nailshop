@@ -7,9 +7,15 @@
 <title>가꿈: 회원가입</title>
 <style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-	* { font-family: 'Jeju Myeongjo', serif; font-weight: bold; }
+@font-face {
+     font-family: 'S-CoreDream-4Regular';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+	* { /* font-family: 'Jeju Myeongjo', serif;  */ font-family: 'S-CoreDream-4Regular'; font-weight: bold; }
 	body {
-		background-color:	rgb(248,236,231);
+		background-color:	rgb(250,250,250);
 	}
 	#logo {
 		/* margin-top: 50px;
