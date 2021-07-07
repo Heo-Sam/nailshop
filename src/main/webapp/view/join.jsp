@@ -47,6 +47,12 @@
 	span { color: red; }
 	a { font-size: 14px; }
 </style>
+<script type="text/javascript">
+	function join_go(f) {
+		f.action = "joinOK.jsp";
+		f.submit();
+	}
+</script>
 </head>
 <body>
 	<div id="logo">
@@ -59,7 +65,7 @@
 			<span>*</span> <a> 1. 이름을 입력해주세요. </a> <br><br>
 			<input type="text" name="name" placeholder="이름 입력" required><br><br>
 			<span>*</span> <a>2. 전화번호를 입력해주세요.</a> <br><br>
-			<input type="number" name="phone" pattern="###-####-####"  placeholder="010-1111-1111" required><br><br>
+			<input type="number" name="phone" pattern="###-####-####" placeholder="010-1111-1111" required><br><br>
 			<span>*</span> <a>3. 이메일을 입력해주세요.</a> <br><br>
 			<input type="text" name="email" placeholder="이메일 입력" required><br><br>
 			<span>*</span> <a>4. 사용 할 아이디를 입력해주세요.</a> <br><br>
@@ -68,7 +74,7 @@
 			<input type="text" name="pw" placeholder="비밀번호 입력" required><br><br>
 			<span>*</span> <a>6. 비밀번호 확인을 위해 한번 더 입력해주세요.</a> <br><br>
 			<input type="text" name="name" placeholder="비밀번호 재입력" required><br><br><br>
-			<input type="button" name="join_go(this.form)" value="가입하기" >
+			<input type="submit" name="join_go(this.form)" value="가입하기" >
 		</form>
 	</div>
 </body>

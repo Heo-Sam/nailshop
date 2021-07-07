@@ -69,11 +69,11 @@
 	<form id="login_form" method="post">
 		<input type="text" name="id" placeholder="아이디를 입력해주세요."><br><br>
 		<input type="password" name="pw" placeholder="비밀번호를 입력해주세요."><br><br><br>
-		<input type="button" name="login_go(this.form)" value="로그인" ><br><br>
-		<input type="button" name="join_go(this.form)" value="회원가입" >
+		<input type="button" onclick="login_go(this.form)" value="로그인" ><br><br>
+		<input type="button" onclick="join_go(this.form)" value="회원가입" >
 	</form>
 		<div id="find_id">
-			<a href="find.jsp">아이디 혹은 비밀번호를 잊어버리셨나요?</a>
+			<a href="find_id.jsp">아이디 혹은 비밀번호를 잊어버리셨나요?</a>
 		</div>
 
 </body>
