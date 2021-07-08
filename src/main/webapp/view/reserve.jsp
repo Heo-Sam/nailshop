@@ -69,6 +69,14 @@
 	/* 	font-weight: bold; */
 	}
 </style>
+<script type="text/javascript">
+	function web_reserve() {
+		location.href="reserve_form.jsp";
+	}
+	function chat_reserve() {
+		location.href="https://open.kakao.com/o/sDYUw4eb";
+	}
+</script>
 </head>
 <body>
 <%@ include file="header.jsp" %>
@@ -95,24 +103,24 @@
 				<form action="#" method="post">
 					<p class="reserve_go">젤네일 예약하기</p>
 					<img alt="네일이미지" src="../main_images/res_nail_300.jpg">
-					<input type="button" value="웹에서 예약하기" name="nailWeb_reserve()">
-					<input type="button" value="오픈채팅으로 예약하기" name="nailChat_reserve()">
+					<input type="button" value="웹에서 예약하기" onclick="web_reserve()">
+					<input type="button" value="오픈채팅으로 예약하기" onclick="chat_reserve()">
 				</form>
 			</div>
 			<div class="online_content" style="margin: 0 44px;">
 				<form action="#" method="post">
 					<p class="reserve_go">패디큐어 예약하기</p>
 					<img alt="네일이미지" src="../main_images/res_pedi_300.jpg">
-					<input type="button" value="웹에서 예약하기" name="pedilWeb_reserve()">
-					<input type="button" value="오픈채팅으로 예약하기" name="pediChat_reserve()">
+					<input type="button" value="웹에서 예약하기" onclick="web_reserve()">
+					<input type="button" value="오픈채팅으로 예약하기" onclick="chat_reserve()">
 				</form>
 			</div>
 			<div class="online_content">
 				<form action="#" method="post">	
 					<p class="reserve_go">속눈썹 예약하기</p>
 					<img alt="네일이미지" src="../main_images/logo_300.jpg">
-					<input type="button" value="웹에서 예약하기" name="eyeWeb_reserve()">
-					<input type="button" value="오픈채팅으로 예약하기" name="eyelChat_reserve()">
+					<input type="button" value="웹에서 예약하기" onclick="web_reserve()"> 
+					<input type="button" value="오픈채팅으로 예약하기" onclick="chat_reserve()">
 				</form>
 			</div>
 		</div>
