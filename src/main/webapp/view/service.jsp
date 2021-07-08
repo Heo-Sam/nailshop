@@ -8,14 +8,6 @@
 <style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 
-@font-face {
-	font-family: 'GongGothicMedium';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff')
-		format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 * { font-family: 'Jeju Myeongjo', serif; }
 body { background-color: rgb(248, 236, 231); }
 .res_notice {
@@ -71,7 +63,6 @@ ul.tab li.current {
 
 
 		<div id="tab1" class="tab-content current">
-			<h3>손</h3>
 			<table>
 				<!-- 추후 taglib사용, db에서 사진 가져오기 -->
 				<tr> 
@@ -90,7 +81,6 @@ ul.tab li.current {
 		</div>
 
 		<div id="tab2" class="tab-content">
-			<h3>발</h3>
 			<table>
 				<!-- 추후 taglib사용, db에서 사진 가져오기 -->
 				<tr> 
@@ -109,7 +99,6 @@ ul.tab li.current {
 		</div>
 
 		<div id="tab3" class="tab-content">
-			<h3>속눈썹</h3>
 			<table>
 				<!-- 추후 taglib사용, db에서 사진 가져오기 -->
 				<!-- 아직 속눈썹 시술사진 미적용 -->

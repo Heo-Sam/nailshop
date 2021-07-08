@@ -62,7 +62,7 @@
 	input[type=button] {
 		width: 250px;
 		padding: 13px;
-		background-color: rgba(255,198,165,0.5);
+		background-color: rgba(255,198,165,0.5); 
 		border: 1px solid #FFBC9B;
 		margin-top: 20px;
 		font-size: 15px;
