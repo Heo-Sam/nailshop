@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>가꿈: 비밀번호 재설정</title>
 <style type="text/css">
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @font-face {
